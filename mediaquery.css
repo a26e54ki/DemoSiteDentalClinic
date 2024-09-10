@@ -1,0 +1,309 @@
+@charset "utf-8";
+
+@media screen and (max-width:1440px) {
+
+   .container {
+      max-width: 1024px;
+   }
+
+   .header_logo {
+      height: 40px;
+   }
+
+   .header_link-booking {
+      display: block;
+      padding: 2px 24px;
+   }
+
+   .header_contact_text {
+      font-size: 0.9rem;
+   }
+
+   .header_contact_tel {
+      font-size: 1.7rem;
+   }
+
+   /* ::::: fv ::::: */
+   .fv_inner {
+      padding: 24px 40px;
+   }
+
+   .fv_table * {
+      padding: 2px 4px;
+      font-size: 1.75rem;
+   }
+
+   .detail_list {
+      width: 100%;
+   }
+
+   .footer_tel_text {
+      font-size: 0.9rem;
+   }
+
+   .footer_tel_number {
+      font-size: 1.7rem;
+   }
+
+   .footer_button {
+      padding: 8px 32px;
+   }
+}
+
+/* ::::: 1440px ::::: */
+
+
+@media screen and (max-width:1024px) {
+   .header {
+      padding: 8px 16px;
+   }
+
+   .header_logo {
+      height: 30px;
+   }
+
+   .header_inner {
+      gap: 16px;
+   }
+
+   .menu_list {
+      gap: 16px;
+   }
+
+   .header_link-booking {
+      padding: 0 16px;
+   }
+
+   .header_contact_text {
+      font-size: 0.7rem;
+   }
+
+   .header_contact_tel {
+      font-size: 1.25rem;
+   }
+
+   .about_content {
+      gap: 16px;
+   }
+
+   .footer_button {
+      padding: 8px 32px;
+   }
+
+   .footer_link.-pc {
+      font-size: 0.875rem;
+      flex-wrap: wrap;
+      gap: 8px;
+   }
+
+   .footer_link_item {
+      width: calc((100% - 8px) / 2);
+   }
+}
+
+@media screen and (max-width:850px) {
+   html {
+      font-size: 14px;
+   }
+
+   .header {
+      padding: 16px;
+   }
+
+   .header_inner.-pc {
+      display: none;
+   }
+
+   .header_menu-button.-sp {
+      display: block;
+   }
+
+   .menu_list {
+      display: block;
+   }
+
+   .menu_item {
+      width: fit-content;
+      padding: 8px;
+      color: white;
+      font-size: 1.75rem;
+   }
+
+   .menu_item:before {
+      content: "> ";
+   }
+}
+
+@media screen and (max-width:768px) {
+   .fv_inner {
+      padding: 8px;
+      bottom: 0;
+      right: 0;
+      left: 0;
+      border-radius: 0;
+   }
+
+   .fv_table {
+      margin: 0 auto;
+   }
+
+   .fv_table * {
+      font-size: 1.5rem;
+   }
+
+   .fv_table_th.-time {
+      padding-right: 8px;
+   }
+
+   .fv_table_td.notice {
+      font-size: 1.5rem;
+      text-align: center;
+   }
+
+   .more-button {
+      background: white;
+      padding: 8px 24px;
+   }
+
+   .about {
+      padding: 64px 0;
+   }
+
+   .about .about_content {
+      margin-top: 40px;
+      flex-direction: column;
+      gap: 24px;
+   }
+
+   .about_content_img-container {
+      width: 100%;
+      height: 300px;
+      border-radius: 0;
+   }
+
+   .about_content_text-container {
+      width: 80%;
+   }
+
+   .detail {
+      padding: 64px 0;
+   }
+
+   .detail_list {
+      margin: 40px auto 0 auto;
+      gap: 8px;
+   }
+
+   .detail_item {
+      width: calc((100% - 16px) / 3);
+   }
+
+   .gallery_img-container {
+      height: 200px;
+   }
+
+   .news_article {
+      display: block;
+   }
+
+   .visit_inner {
+      padding: 64px 32px;
+   }
+
+   .footer_inner {
+      display: flex;
+      flex-direction: column;
+      gap: 32px;
+   }
+
+   .footer_left {
+      width: 100%;
+      align-items: center;
+   }
+
+   .footer_right {
+      width: 100%;
+   }
+
+   .footer_tel_text {
+      font-size: 1.125rem;
+   }
+
+   .footer_tel_number {
+      font-size: 2rem;
+   }
+
+   .footer_map {
+      height: 400px;
+   }
+
+   .footer_link.-pc {
+      display: none;
+   }
+
+   .footer_link.-sp {
+      display: flex;
+      font-size: 0.875rem;
+      flex-wrap: wrap;
+   }
+
+   .footer_link_item {
+      padding: 8px;
+      width: 50%;
+   }
+}
+
+@media screen and (max-width:430px) {
+   html {
+      font-size: 13px;
+   }
+
+   .fv_table * {
+      font-size: 1.2rem;
+   }
+
+   .fv_table_td.notice {
+      font-size: 1.2rem;
+      text-align: center;
+   }
+
+   .about_content_text-container {
+      width: 100%;
+   }
+   
+   .detail_item {
+      width: calc((100% - 8px) / 2);
+   }
+   
+   .news_inner {
+      width: 100%;
+   }
+   
+   .visit_inner {
+      padding: 64px 8px;
+   }
+   
+   .visit_inner_tel_number {
+      padding: 8px 24px;
+   }
+
+   .footer {
+      padding: 32px 0 64px 0;
+   }
+
+   .footer_logo {
+      width: 70%;
+   }
+
+   .footer_button {
+      display: none;
+   }
+
+   .footer_link.-sp {
+      margin-bottom: 8px;
+   }
+
+   .footer_menu-sp {
+      display: flex;
+   }
+}
